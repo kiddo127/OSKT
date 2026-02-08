@@ -18,7 +18,7 @@ OSKT addresses the challenge of repetitive computations in traditional model com
 - **State-of-the-Art Performance**: Outperforms traditional knowledge distillation and pruning methods
 
 ## 🏗️ Model Architectures
-Our method leverages the refined weight chain​ to generate a dense spectrum of offspring models​ spanning from the weight chain's own width up to the full width of the teacher model. To evaluate the effectiveness of our approach, we construct the following series of models for performance assessment.
+Our method leverages the refined weight chain​ to generate a dense spectrum of student models​ spanning from the weight chain's own width up to the full width of the teacher model. To evaluate the effectiveness of our approach, we construct the following series of models for performance assessment.
 ### ResNet Model Series
 | Model | Role | Inplanes | Multipliers | Params | FLOPs |
 |-------|-----|----------|-------------|--------|-------|
@@ -42,7 +42,9 @@ Our method leverages the refined weight chain​ to generate a dense spectrum of
 
 
 ## 📊 Experimental Results
-We evaluate our method under two distinct settings: Knowledge Transfer in a Single Scenario​ (where weight chain refinement and offspring model training share the same dataset) and Knowledge Transfer across Scenarios​ (where these two stages utilize different datasets). Our comparative analysis encompasses four initialization strategies for offspring models: random initialization (Scratch), parameter selection from the teacher model (WTSel), knowledge distillation (KD++), and model pruning (DepGraph). The performance of offspring models after downstream training is reported in the format of mAP(%)/Rank-1(%).
+We evaluate our method under two distinct settings: Knowledge Transfer in a Single Scenario​ (where weight chain refinement and student model training share the same dataset) and Knowledge Transfer across Scenarios​ (where these two stages utilize different datasets). Our comparative analysis encompasses four initialization strategies for student models: random initialization (Scratch), parameter selection from the teacher model (WTSel), knowledge distillation (KD++), and model pruning (DepGraph). The performance of student models after downstream training is reported in the format of mAP(%)/Rank-1(%).
+
+**Note**:​ Our method demonstrates substantial performance advantages​ over competing compression approaches when generating student models that precisely match the width of the weight chain (e.g., Res-50-S1, Res-50-S3, Res-50-S5, ViT-S-S1, ViT-B-S1). The performance gap narrows when producing wider student models through efficient expansion. For applications where scalability is not required, our approach serves as an exceptional stand-alone compression technique.
 
 ### Knowledge Transfer in a Single Scenario
 | Method | Res-50-S1 | Res-50-S3 | Res-50-S5 |
@@ -51,7 +53,7 @@ We evaluate our method under two distinct settings: Knowledge Transfer in a Sing
 | WTSel | 48.5/72.3 | 63.0/81.5 | 84.1/93.0 |
 | KD++ | 41.5/65.7 | 59.9/80.4 | 71.4/86.9 |
 | DepGraph | 61.3/80.7 | 83.2/92.7 | 86.3/94.3 |
-| OSKT | **75.7/89.4** | **84.7/93.3** | **87.6/94.5** |
+| **OSKT** | **75.7/89.4** | **84.7/93.3** | **87.6/94.5** |
 
 | Method | ViT-S-S1 | ViT-S-S2 | ViT-B-S1 | ViT-B-S2 |
 |--------|----------|----------|----------|----------|
@@ -59,7 +61,7 @@ We evaluate our method under two distinct settings: Knowledge Transfer in a Sing
 | WTSel | 41.0/60.5 | 54.8/75.1 | 16.8/31.7 | 58.7/78.2 |
 | KD++ | 22.6/38.7 | 25.0/41.2 | 25.9/41.7 | 28.2/44.4 |
 | DepGraph | 56.5/74.1 | 69.0/84.2 | 15.3/30.1 | 81.5/91.7 |
-| OSKT | **74.2/87.1** | **77.2/89.0** | **81.6/91.9** | **82.9/92.4** |
+| **OSKT** | **74.2/87.1** | **77.2/89.0** | **81.6/91.9** | **82.9/92.4** |
 
 
 ### Knowledge Transfer across Scenarios
