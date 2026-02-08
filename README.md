@@ -6,6 +6,7 @@ Official PyTorch implementation of [One-Shot Knowledge Transfer for Scalable Per
 ## 📖 Overview
 OSKT addresses the challenge of repetitive computations in traditional model compression methods by introducing an intermediate knowledge carrier called weight chain. This approach allows efficient generation of student models with varying sizes through a single computation, making it ideal for edge computing scenarios with diverse resource constraints.
 
+
 <img width="4487" height="3355" alt="overview" src="https://github.com/user-attachments/assets/5d84cb88-46f2-4de7-87fa-1ee90de8fad6" />
 <img width="4487" height="3355" alt="overview" src="https://github.com/user-attachments/assets/1e996360-b909-4e9e-a29d-16db806ec048" />
 
