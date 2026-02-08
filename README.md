@@ -99,3 +99,9 @@ We evaluate our method under two distinct settings: Knowledge Transfer in a Sing
 | | **OSKT** | **49.3/50.9** | 51.3/**52.9** | **59.4/61.7** | 61.9/64.4 |
 
 
+## 💻 Usage
+
+### 1. Teacher Model Training
+### 2. Weight Chain Refinement
+### 3. Student Model Initialization & Downstream Training
+
