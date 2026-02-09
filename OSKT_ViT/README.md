@@ -1,5 +1,5 @@
 
-## Dataset Preparation
+## 📊 Dataset Preparation
 Replace ``/path/to/data/root`` in the `datasets/DatasetsLoader.py` file with the actual root path to your datasets.
 Organize the datasets into the following directory structure:
 ```
