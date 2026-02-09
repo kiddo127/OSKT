@@ -29,7 +29,7 @@ Execute `run_refine_weight_chain.sh` to extract and refine the weight chain from
 
 
 ## ⚡ Alternative Quick Start Option
-For researchers who wish to bypass the first two stages, we provide pre-computed weight chains for immediate use. Download​ our pre-trained weight chains from this repository and organize​ files according to the following directory structure:
+For researchers who wish to bypass the first two stages, we provide pre-computed weight chains for immediate use. Download​ our pre-trained weight chains from [this link](https://drive.google.com/drive/folders/11a2IDAcvxKhNuDDlkhuVdG4vkB0g9-Zd) and organize​ files according to the following directory structure:
 ```
 OSKT_ViT/
 └── output/
