@@ -4,7 +4,7 @@ Replace ``/path/to/data/root`` in the `datasets/DatasetsLoader.py` file with the
 Organize the datasets into the following directory structure:
 ```
 path_to_data_root/
-└── CUHK03-NP/
+├── CUHK03-NP/
 ├── Market-1501-v15.09.15/
 └── MSMT17_V1/
 ```
