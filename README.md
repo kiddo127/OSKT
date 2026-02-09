@@ -9,8 +9,10 @@ OSKT addresses the challenge of repetitive computations in traditional model com
 
 <img width="4487" height="3355" alt="overview" src="https://github.com/user-attachments/assets/5d84cb88-46f2-4de7-87fa-1ee90de8fad6" />
 Figure 1. Conceptual Diagram of OSKT. Refine knowledge into a weight chain in a single pass, enabling adaptive expansion of models of varying sizes meeting downstream resource constraints.
-
+<br>
+<br>
 <img width="4487" height="3355" alt="overview" src="https://github.com/user-attachments/assets/1e996360-b909-4e9e-a29d-16db806ec048" />
+Figure 2. mAP vs. Model Size (Log Scale) on Market1501. Transfer knowledge from a pre-trained ResNet50 to student models of different sizes.
 
 
 ## ✨ Key Features
