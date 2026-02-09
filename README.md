@@ -1,5 +1,7 @@
 # One-Shot Knowledge Transfer for Scalable Person Re-Identification (ICCV 2025)
-[PyTorch] Official implementation of "One-Shot Knowledge Transfer for Scalable Person Re-Identification"​ (ICCV 2025)
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+<a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
 
 Official PyTorch implementation of [One-Shot Knowledge Transfer for Scalable Person Re-Identification](https://openaccess.thecvf.com/content/ICCV2025/html/Li_One-Shot_Knowledge_Transfer_for_Scalable_Person_Re-Identification_ICCV_2025_paper.html) (ICCV 2025), a novel knowledge inheritance approach that enables efficient generation of scalable person re-identification models through one-shot weight chain refinement.
 
@@ -110,4 +112,23 @@ For CNN-based knowledge transfer, utilize our [OSKT_CNN](https://github.com/kidd
 For ViT-based knowledge transfer, employ our [OSKT ViT](https://github.com/kiddo127/OSKT/tree/main/OSKT_ViT)​ repository.
 
 
+
+## 📝 Citation
+If you use this work in your research, please cite our paper:
+
+```
+@inproceedings{li2025one,
+  title={One-Shot Knowledge Transfer for Scalable Person Re-Identification},
+  author={Li, Longhua and Qi, Lei and Geng, Xin},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={668--677},
+  year={2025}
+}
+```
+
+## 📄 License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/kiddo127/SKD/blob/main/LICENSE) file for details.
+
+## 🙏 Acknowledgments
+Our work builds upon the [BoT](https://github.com/michuanhaohao/reid-strong-baseline) and [TransReID](https://github.com/damo-cv/TransReID) repositories. We sincerely thank the authors for open-sourcing their excellent work.
 
