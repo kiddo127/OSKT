@@ -33,7 +33,7 @@ For researchers who wish to bypass the first two stages, we provide pre-computed
 OSKT_CNN/
 └── output/
     └── weight_chain/
-        ├── 8/              # 8-inplane weight chain
+        ├── 8/               # 8-inplane weight chain
         │   ├── Market1501/   # Market-1501 refined weight chain
         │   │   ├── gene_matcher.json   # Matching configuration
         │   │   └── transformer_120.pth # Weight chain parameters
