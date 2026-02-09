@@ -109,7 +109,7 @@ We evaluate our method under two distinct settings: Knowledge Transfer in a Sing
 
 For CNN-based knowledge transfer, utilize our [OSKT_CNN](https://github.com/kiddo127/OSKT/tree/main/OSKT_CNN)​ repository.
 
-For ViT-based knowledge transfer, employ our [OSKT ViT](https://github.com/kiddo127/OSKT/tree/main/OSKT_ViT)​ repository.
+For ViT-based knowledge transfer, employ our [OSKT_ViT](https://github.com/kiddo127/OSKT/tree/main/OSKT_ViT)​ repository.
 
 
 
