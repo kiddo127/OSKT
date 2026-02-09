@@ -127,7 +127,7 @@ If you use this work in your research, please cite our paper:
 ```
 
 ## 📄 License
-This project is licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/kiddo127/SKD/blob/main/LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/kiddo127/OSKT/blob/main/LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 Our work builds upon the [BoT](https://github.com/michuanhaohao/reid-strong-baseline) and [TransReID](https://github.com/damo-cv/TransReID) repositories. We sincerely thank the authors for open-sourcing their excellent work.
